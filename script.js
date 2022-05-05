@@ -26,7 +26,7 @@ setInterval(function() {
     var tempMilli = String(milli).charAt(0);
     var finalMilli = Number(tempMilli);
 
-    clock.innerHTML = h + ":" + m + ":" + s + " " + finalMili + " " + ampm;
+    clock.innerHTML = h + ":" + m + ":" + s + " " + finalMilli + " " + ampm;
 
     var day = date.getUTCDate();
     var year = date.getUTCFullYear();
