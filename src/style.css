@@ -1,0 +1,50 @@
+html {
+	background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+  
+a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #fff;
+}
+
+a:hover {
+	color: rgb(175, 175, 175);
+}
+
+#clock {
+    background-color: black;
+    border-radius: 20px;
+    font-size: 80px;
+    color: white;
+    height: 150px;
+    width: 60%;
+    line-height: 150px;
+    margin: 0 auto;
+}
+
+#date {
+    font-size: 20px;
+    color: white;
+    color: rgb(200, 200, 200);
+}
+
+@media only screen and (max-width: 1000px) {
+    #clock {
+        font-size: 35px;
+        height: 75px;
+        line-height: 75px;
+        width: 95%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
